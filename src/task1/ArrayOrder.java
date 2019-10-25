@@ -24,7 +24,7 @@ public class ArrayOrder {
         int i = 0;
         int j = 0;
         while (i<tab.length*2 ){
-            if(i>9) {
+            if(i>tab.length-1) {
                 System.out.print(tab[tab.length - 1 - j] + " ");
                 j++;
             } else {
